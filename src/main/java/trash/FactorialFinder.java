@@ -9,4 +9,5 @@ public class FactorialFinder {
     public static void main(String[] args) {
         System.out.print(findFactorial(10));
     }
+
 }
