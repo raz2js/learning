@@ -10,7 +10,7 @@ public class UpdatedBubbleSort {
         int in, out, j, swap;
 
         for (out = arr.length - 1; out > 0; --out) {
-            for (in = 0, j = out; in < out; ++in, j--) {
+            for (in = 0, j = out; in < out; ++in) {
                 if (arr[in] > arr[in + 1]) {
                     swap = arr[in];
                     arr[in] = arr[in + 1];
@@ -43,7 +43,7 @@ public class UpdatedBubbleSort {
 
         int[] array = new int[100000];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) Math.round((Math.random() * 1) * 1000000);
+            array[i] = (int) Math.round((Math.random() * 1) * 100000);
         }
 
         double startTime = System.currentTimeMillis();
@@ -56,7 +56,7 @@ public class UpdatedBubbleSort {
 
         int[] arr = new int[100000];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) Math.round((Math.random() * 1) * 1000000);
+            arr[i] = (int) Math.round((Math.random() * 1) * 100000);
         }
 
         double updatedStartTime = System.currentTimeMillis();
