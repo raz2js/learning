@@ -8,6 +8,7 @@ public class Testing {
     public void test() {
         FactorialFinder factorialFinder = new FactorialFinder();
         Assert.assertEquals(120, factorialFinder.findFactorial(5));
+
     }
 
 
